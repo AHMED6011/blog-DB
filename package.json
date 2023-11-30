@@ -1,0 +1,34 @@
+{
+  "name": "blog-back-end",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.14.3",
+    "@strapi/plugin-i18n": "4.14.3",
+    "@strapi/plugin-users-permissions": "4.14.3",
+    "@strapi/provider-email-sendgrid": "^4.14.5",
+    "@strapi/strapi": "4.14.3",
+    "better-sqlite3": "8.6.0",
+    "pg": "^8.11.3",
+    "strapi-plugin-update-password": "^0.0.6",
+    "strapi-provider-upload-supabase": "^1.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "18deaf61-c3d6-4640-a0cd-324ad20bbab0"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
